@@ -1,9 +1,3 @@
-proc import datafile="C:/Users/ntlmp/Desktop/STAT410 Regression Analysis/STAT410 Project/insurance.csv"
-out=healthinsurance
-dbms=csv
-replace;
-run; /*proc print;run;*/
-
 /* creating dummy variables for levels for categorical variables*/
 data healthinsurance;
 set healthinsurance;
