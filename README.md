@@ -4,4 +4,5 @@ This project explores health insurance premiums using Box-Cox and Gamma regressi
 ### Contents
 **Data** The dataset comprises of 1338 rows of insured data, consisting of the following attributes:
   age, sex, BMI, number of children, smoker, residential region, individual medical costs billed by health insurance
+
 **Dependencies** R packages: `rcompanion`, `MASS`
