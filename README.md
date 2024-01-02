@@ -32,7 +32,7 @@ The Gamma Regression, on the other hand, proved to be a better fit for the data.
 
 The fitted model for the Gamma Regression is expressed as:
 
-\[ \hat{E}(\text{charges}) = \exp(-0.2226 + 0.0345 \times \text{age} + 0.1195 \times \text{male} + 0.0173 \times \text{BMI} + 0.0520 \times \text{children} + 1.6938 \times \text{smoker} + 0.0093 \times \text{northeast} + 0.2674 \times \text{northwest} + 0.0782 \times \text{southwest}) \]
+\hat{E}(\text{charges}) = \exp(-0.2226 + 0.0345 \times \text{age} + 0.1195 \times \text{male} + 0.0173 \times \text{BMI} + 0.0520 \times \text{children} + 1.6938 \times \text{smoker} + 0.0093 \times \text{northeast} + 0.2674 \times \text{northwest} + 0.0782 \times \text{southwest})
 
 ### Predictor Interpretation
 
