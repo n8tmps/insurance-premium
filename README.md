@@ -39,4 +39,4 @@ The interpretation for significant predictors is as follows:
 
 ## Conclusion
 
-The Gamma Regression proved effective in modeling health insurance premium charges, capturing the inherent right-skewness of the dataset. This analysis provided insights into risk underwriting in health insurance, showcasing the interplay of various attributes on insurance premiums. In the future, the regression analysis skills gained from this project can be applied to other financial metrics, such as claim amounts.
+The Gamma Regression proved effective in modeling health insurance premium charges, capturing the inherent right-skewness of the dataset. This analysis provided insights into risk underwriting in health insurance, showcasing the interplay of various attributes on insurance premiums.
