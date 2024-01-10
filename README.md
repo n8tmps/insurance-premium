@@ -28,7 +28,7 @@ This project explores health insurance premium charges using regression models, 
 The original dataset did not contain any missing or undefined values. For this analysis, the dataset was truncated to the first 100 observations. The response variable chosen was insurance charges, with the other variables serving as predictors.
 
 <div class="section">
-	<h2>Regression Models</h2>
+	<b>Regression Models</b>
 	<p>
 Both Box-Cox and Gamma Regression models were applied to model the insurance premium charges.
 
