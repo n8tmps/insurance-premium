@@ -31,8 +31,9 @@ The original dataset did not contain any missing or undefined values. For this a
 	<h2>Regression Models</h2>
 	<p>
 Both Box-Cox and Gamma Regression models were applied to model the insurance premium charges.
+	</p>
 
-	<b>Box-Cox Regression</b>
+	<h3>Box-Cox Regression</h3>
 
 The Box-Cox Regression initially attempted to transform the response variable to achieve normality. However, after applying a square root transformation with an optimal lambda of 0.25, the transformed response remained non-normally distributed.
 
