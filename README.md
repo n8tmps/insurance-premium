@@ -38,9 +38,10 @@ Both Box-Cox and Gamma Regression models were applied to model the insurance pre
 	<h3>Box-Cox Regression</h3>
 
 The Box-Cox Regression initially attempted to transform the response variable to achieve normality. However, after applying a square root transformation with an optimal lambda of 0.25, the transformed response remained non-normally distributed.
-	
-	<h3>Gamma Regression</h3>
+</div>
 
+<div class="section">
+	<h3>Gamma Regression</h3>
 The Gamma Regression, on the other hand, proved to be a better fit for the data. Significant predictors at the 5% level included age, BMI, smoking status, and region northwest. The fitted model demonstrated a good fit, with a deviance test p-value close to zero.
 </div>
 
