@@ -28,15 +28,15 @@ This project explores health insurance premium charges using regression models, 
 The original dataset did not contain any missing or undefined values. For this analysis, the dataset was truncated to the first 100 observations. The response variable chosen was insurance charges, with the other variables serving as predictors.
 
 <div class="section">
-	<b>Regression Models</b>
+	<h2>Regression Models</h2>
 	<p>
 Both Box-Cox and Gamma Regression models were applied to model the insurance premium charges.
 
-	<h3>Box-Cox Regression</h3>
+	<b>Box-Cox Regression</b>
 
 The Box-Cox Regression initially attempted to transform the response variable to achieve normality. However, after applying a square root transformation with an optimal lambda of 0.25, the transformed response remained non-normally distributed.
 
-	<h3>Gamma Regression</h3>
+	<b>Gamma Regression</b>
 
 The Gamma Regression, on the other hand, proved to be a better fit for the data. Significant predictors at the 5% level included age, BMI, smoking status, and region northwest. The fitted model demonstrated a good fit, with a deviance test p-value close to zero.
 </div>
