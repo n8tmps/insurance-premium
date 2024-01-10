@@ -1,4 +1,4 @@
-<img src="insurance.jpg" width="250" height="300">
+<img src="insurance.jpg">
 <body>
 	<header>
 		<h1> Health Insurance Premium Analysis </h1>
