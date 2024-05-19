@@ -78,6 +78,8 @@ The fitted mean for the Box-Cox transformed response is:
 
 The optimal $\lambda$ was computed to be $0.25$, which prompted for a square root transformation of $2 ( 1 - \frac{1}{\sqrt{y}})$. However, after plotting a histogram to the transformed response and conducting a normality test, the p-value was larger than 0.05, and the transformed response remained not normally distributed.
 
+<img src="coxtr.jpg" />
+
 <div class="section">
 	<h3>Gamma Regression</h3>
 The Gamma Regression, on the other hand, proved to be a better fit for the data. Significant predictors at the 5% level included age, BMI, smoking status, and region northwest. The fitted model demonstrated a good fit, with a deviance test p-value close to zero.
