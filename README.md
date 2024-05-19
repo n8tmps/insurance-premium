@@ -37,7 +37,7 @@ Both Box-Cox and Gamma Regression models were applied to model the insurance pre
 <div class="section">
 	<h3>Box-Cox Regression</h3>
 
-The Box-Cox Regression initially attempted to transform the response variable to achieve normality. However, after applying a square root transformation with an optimal lambda of 0.25, the transformed response remained non-normally distributed.
+The Box-Cox Regression was initially used to transform the response variable to achieve normality. However, after applying a square root transformation with an optimal lambda of 0.25, the transformed response remained non-normally distributed. When the assumption of normality is violated, the results from statistical analysis and modeling can be inaccurate, leading to incorrect conclusions.
 </div>
 
 <div class="section">
