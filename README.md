@@ -41,6 +41,11 @@ The original dataset did not contain any missing or undefined values. For this a
 	</p>
 <img src="charges.jpg" />
 
+| Statistic | Value        |
+|-----------|--------------|
+| W         | 0.81469      |
+| p-value   | < 2.2e-16    |
+
 </div>
 <div class="section">
 	<h2>Regression Models</h2>
