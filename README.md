@@ -70,7 +70,7 @@ The fitted mean for the Box-Cox transformed response is:
 |-------------|--------------|
 |0.25         |-3716.47      |
 
-The optimal $\lambda$ was computed to be $0.25$, which prompted for a square root transformation of $2 ( 1 - \frac{1}{\sqrt{y}}))$
+The optimal $\lambda$ was computed to be $0.25$, which prompted for a square root transformation of $2 ( 1 - \frac{1}{\sqrt{y}})$. However, after plotting a histogram to the transformed response and conducting a normality test, the p-value was larger than 0.05, and the transformed response remained not normally distributed.
 
 <div class="section">
 	<h3>Gamma Regression</h3>
