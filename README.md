@@ -85,13 +85,13 @@ The optimal $\lambda$ was computed to be $0.25$, which prompted for a square roo
 | W         | 0.93386      |
 | p-value   | < 2.2e-16    |
 
-### Gamma regression Model
+### Gamma Regression Model
 A gamma regression, alternatively, was fitted to the positive response with a right-skewed distribution. In this model, $y$ has a gamma distribution with the density
 
 <img src="https://latex.codecogs.com/svg.image?f_Y(y)=\frac{y^{\alpha-1}}{\Gamma(\alpha)\beta^\alpha}e^{-\frac{y}{\beta}},\quad\alpha,\beta>0,\quad&space;y>0&space;" />
 
 The fitted mean response has the form:
-$\hat{E}(y) = \hat{\alpha}\hat{\beta} = exp(\hat{\beta_0} + \hat{\beta_1}x_1 + ... + \hat{\beta_k}x_k)$, and the estimtated dispersion parameter $\hat{\alpha} = 1/\hat{\phi}$ 
+$\hat{E}(y) = \hat{\alpha}\hat{\beta} = exp(\hat{\beta_0} + \hat{\beta_1}x_1 + ... + \hat{\beta_k}x_k)$, and the estimtated dispersion parameter $\hat{\alpha} = 1/\hat{\phi}$ and $\hat{\beta} = \hat{\phi}exp(\hat{\beta_0} + \hat{\beta_1}x_1 + ... + \hat{\beta_k}x_k)$.
 
 <div class="section">
 	<h2>Predictor Interpretation</h2>
