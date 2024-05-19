@@ -90,6 +90,9 @@ A gamma regression, alternatively, was fitted to the positive response with a ri
 
 <img src="https://latex.codecogs.com/svg.image?f_Y(y)=\frac{y^{\alpha-1}}{\Gamma(\alpha)\beta^\alpha}e^{-\frac{y}{\beta}},\quad\alpha,\beta>0,\quad&space;y>0&space;" />
 
+The fitted mean response has the form:
+$\hat{E}(y)$
+
 <div class="section">
 	<h2>Predictor Interpretation</h2>
 
