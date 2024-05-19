@@ -38,8 +38,7 @@ The original dataset did not contain any missing or undefined values. For this a
 
 After plotting the individual medical costs billed by health insurance, the distribution appears to not be normally distributed as supported by the histogram and the normality tests. Many statistical methods assume that the residuals of the data are normally distributed. Right-skewed data can violate these assumptions, leading to incorrect inferences and results.
 
-<img src="charges.jpg" />
-
+<img src="charges.jpg" /><br>
 <img src="norm.jpg" />
 
 To test the normality of a distribution, one commonly used method is the Shapiro-Wilk test. The null hypothesis, $H_0$, for this test states that the population from which the sample is drawn follows a normal distribution. The alternative hypothesis, $H_1$, asserts that the population is not normally distributed.
