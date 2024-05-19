@@ -60,6 +60,10 @@ If the density of the response variable $y$ is right-skewed, a transformation ma
 
 <img src="https://latex.codecogs.com/svg.image?\;\tilde{y}=\begin{cases}\frac{y^\lambda-1}{\lambda},&\text{if}\lambda\neq&space;0,\\\ln&space;y,&\text{if}\lambda=0.\end{cases}\;" />
 
+The fitted mean for the Box-Cox transformed response is:
+
+<img src="https://latex.codecogs.com/svg.image?\;\mathbb{E}(\tilde{y})=\mathbb{E}\left(\frac{y}{\lambda-1}\lambda\right)=\beta_0&plus;\beta_1&space;x_1&plus;\cdots&plus;\beta_k&space;x_k\;" />
+
 The Box-Cox Regression was initially used to transform the response variable to achieve normality. However, after applying a square root transformation with an optimal lambda of 0.25, the transformed response remained non-normally distributed. When the assumption of normality is violated, the results from statistical analysis and modeling can be inaccurate, leading to incorrect conclusions.
 
 <div class="section">
