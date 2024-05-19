@@ -8,7 +8,14 @@
 <div class="section">
 	<p>
 This project explores health insurance premium charges using regression models, specifically Box-Cox and Gamma Regression, implemented in R and SAS. The goal is to understand the factors influencing premium variations and identify an effective model for the given dataset.
-
+	</p>
+</div>
+<div class="section">
+	<h2>Background</h2>
+	<p>
+		An insurance premium is the amount of money an individual or business pays for an insurance policy. Insurance premiums are paid for policies that cover healthcare, auto, home, or life insurance. When an individual signs up for an insurance policy, the insurer will charge a premium. The price of the premium depends on a variety of factors including: the type of coverage, age, area in which you live, any claims filed in the past, and moral hazard and adverse selection. Insurers use the premiums paid to them by their customers and policyholders to cover liabilities associated with the policies they underwrite. Some insurers invest in the premium to generate higher returns, which helps maintain competitive prices within the market. In addition to an insurance plan’s premium, total health care costs also include the deductible, copayment/coinsurance amounts, along with health and drug services. A deductible is how much the individual spends for covered health services prior to the insurance company paying anything. Copayments and coinsurance are payments you make to your health care provider each time an individual gets care. Analytics is a vital component of the insurance industry because it allows for interpretation that drives business. These methods of analytics often emphasize data-mining tools and
+statistical inference.
+	</p>
 </div>
 
 <div class="section">
@@ -16,13 +23,13 @@ This project explores health insurance premium charges using regression models, 
 	<p> The dataset was obtained from <a href="https://www.kaggle.com/datasets/mirichoi0218/insurance">Kaggle</a>, a popular platform for data scientists, containing 1338 rows of data with 7 variables:
 </div>
 <ul>
-	<li>Age
-	<li>Sex (male/female)
-	<li>BMI
-	<li>Number of children
-	<li>Smoker (yes/no)
-	<li>Region (southeast, southwest, northeast, northwest)
-	<li>Insurance charges
+	<li><b>Age</b>: Age of primary beneficiary
+	<li><b>Sex</b>: insurance contractor gender: female or male
+	<li><b>BMI</b>: Body mass index
+	<li><b>Children</b>: Number of children covered by health insurance / Number of dependents
+	<li><b>Smoker</b>: (yes/no)
+	<li><b>Region</b>: The beneficiary's residential area in the US (southeast, southwest, northeast, northwest)
+	<li><b>Charges</b>: Individual medical costs billed by health insurance
 </ul>
 	<p>
 The original dataset did not contain any missing or undefined values. For this analysis, the dataset was truncated to the first 100 observations. The response variable chosen was insurance charges, with the other variables serving as predictors.
