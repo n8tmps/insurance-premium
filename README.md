@@ -70,7 +70,7 @@ The fitted mean for the Box-Cox transformed response is:
 |-------------|--------------|
 |0.25         |-3716.47      |
 
-The optimal $\lambda$ was computed to be $0.25$, which prompted for a square root transformation of $2(1 - 1/sqrt{y})$.
+The optimal $\lambda$ was computed to be $0.25$, which prompted for a square root transformation of $sqrt(y)$
 
 <div class="section">
 	<h3>Gamma Regression</h3>
