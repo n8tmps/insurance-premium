@@ -85,10 +85,10 @@ The optimal $\lambda$ was computed to be $0.25$, which prompted for a square roo
 | W         | 0.93386      |
 | p-value   | < 2.2e-16    |
 
-<div class="section">
-	<h3>Gamma Regression</h3>
-The Gamma Regression, on the other hand, proved to be a better fit for the data. Significant predictors at the 5% level included age, BMI, smoking status, and region northwest. The fitted model demonstrated a good fit, with a deviance test p-value close to zero.
-</div>
+### Gamma regression Model
+A gamma regression, alternatively, was fitted to the positive response with a right-skewed distribution. In this model, $y$ has a gamma distribution with the density
+
+<img src="https://latex.codecogs.com/svg.image?f_Y(y)=\frac{y^{\alpha-1}}{\Gamma(\alpha)\beta^\alpha}e^{-\frac{y}{\beta}},\quad\alpha,\beta>0,\quad&space;y>0&space;" />
 
 <div class="section">
 	<h2>Predictor Interpretation</h2>
