@@ -64,9 +64,13 @@ The fitted mean for the Box-Cox transformed response is:
 
 <img src="https://latex.codecogs.com/svg.image?\;\mathbb{E}(\tilde{y})=\mathbb{E}\left(\frac{y}{\lambda-1}\lambda\right)=\beta_0&plus;\beta_1&space;x_1&plus;\cdots&plus;\beta_k&space;x_k\;" />
 
-The optimal $\lambda$ was computed to be $0.25$.
-
 <img src="boxcox.jpg" />
+
+|BoxCox.fit.x | BoxCox.fit.y |
+|-------------|--------------|
+|0.25         |-3716.47      |
+
+The optimal $\lambda$ was computed to be $0.25$.
 
 <div class="section">
 	<h3>Gamma Regression</h3>
