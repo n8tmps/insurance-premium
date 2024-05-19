@@ -31,8 +31,9 @@ statistical inference.
 	<li><b>Region</b>: The beneficiary's residential area in the US (southeast, southwest, northeast, northwest)
 	<li><b>Charges</b>: Individual medical costs billed by health insurance
 </ul>
-	<p>
 The original dataset did not contain any missing or undefined values. For this analysis, the dataset was truncated to the first 100 observations. The response variable chosen was insurance charges, with the other variables serving as predictors.
+	</p>
+
 
 <div class="section">
 	<h2>Regression Models</h2>
