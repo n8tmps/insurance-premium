@@ -18,7 +18,6 @@ statistical inference.
 	</p>
 </div>
 
-<header>Analysis</header>
 <div class="section">
 	<h2>Dataset Information</h2>
 	<p> The dataset was obtained from <a href="https://www.kaggle.com/datasets/mirichoi0218/insurance">Kaggle</a>, a popular platform for data scientists, containing 1338 rows of data with 7 variables:
@@ -35,7 +34,9 @@ statistical inference.
 The original dataset did not contain any missing or undefined values. For this analysis, the dataset was truncated to the first 100 observations. The response variable chosen was insurance charges, with the other variables serving as predictors.
 	</p>
 
-<h>Analysis</h>
+<div class="section">
+	<h2>Analysis</h2>
+</div>
 <div class="section">
 	<h2>Regression Models</h2>
 	<p>
