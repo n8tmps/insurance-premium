@@ -56,7 +56,8 @@ Both Box-Cox and Gamma Regression models were applied to model the insurance pre
 
 ### Box-Cox Power Transformation
 
-If the density of the response variable $y$ is right-skewed, a transformation may be applied to $y$ to make its density appear more normally shaped. This transformation is referred to as *Box-Cox power transformation*. The transformed variable, denoted here by 
+If the density of the response variable $y$ is right-skewed, a transformation may be applied to $y$ to make its density appear more normally shaped. This transformation is referred to as *Box-Cox power transformation*. The transformed variable, denoted here by $\tilde{y}$, has the form:
+<img src="https://latex.codecogs.com/svg.image?\;\tilde{y}=\begin{cases}\frac{y^\lambda-1}{\lambda},&\text{if}\lambda\neq&space;0,\\\ln&space;y,&\text{if}\lambda=0.\end{cases}\;" />
 
 The Box-Cox Regression was initially used to transform the response variable to achieve normality. However, after applying a square root transformation with an optimal lambda of 0.25, the transformed response remained non-normally distributed. When the assumption of normality is violated, the results from statistical analysis and modeling can be inaccurate, leading to incorrect conclusions.
 
