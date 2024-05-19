@@ -13,7 +13,7 @@ This project explores health insurance premium charges using regression models, 
 
 <div class="section">
 	<h2>Dataset Information</h2>
-	<p> The dataset was obtained from Kaggle, a popular platform for data scientists, containing 1338 rows of data with 7 variables:
+	<p> The dataset was obtained from <a href="https://www.kaggle.com/datasets/mirichoi0218/insurance">Kaggle</a>, a popular platform for data scientists, containing 1338 rows of data with 7 variables:
 </div>
 <ul>
 	<li>Age
