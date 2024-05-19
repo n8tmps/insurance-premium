@@ -35,7 +35,7 @@ The original dataset did not contain any missing or undefined values. For this a
 	</p>
 
 <div class="section">
-	<h2>Analysis</h2>
+	<h>Analysis</h>
 </div>
 <div class="section">
 	<h2>Regression Models</h2>
