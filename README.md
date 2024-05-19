@@ -35,7 +35,7 @@ statistical inference.
 The original dataset did not contain any missing or undefined values. For this analysis, the dataset was truncated to the first 100 observations. The response variable chosen was insurance charges, with the other variables serving as predictors.
 	</p>
 
-
+<h>Analysis</h>
 <div class="section">
 	<h2>Regression Models</h2>
 	<p>
