@@ -38,6 +38,7 @@ The original dataset did not contain any missing or undefined values. For this a
 	<h2>Analysis</h2>
 	<p>
 		After plotting the individual medical costs billed by health insurance, the distribution appears to not be normally distributed as supported by the histogram and the normality tests.
+		<img src="charges.jpg" />
 	</p>
 </div>
 <div class="section">
