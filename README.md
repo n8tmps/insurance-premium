@@ -91,7 +91,7 @@ A gamma regression, alternatively, was fitted to the positive response with a ri
 <img src="https://latex.codecogs.com/svg.image?f_Y(y)=\frac{y^{\alpha-1}}{\Gamma(\alpha)\beta^\alpha}e^{-\frac{y}{\beta}},\quad\alpha,\beta>0,\quad&space;y>0&space;" />
 
 The fitted mean response has the form:
-$\hat{E}(y) = \hat{\alpha}\hat{\beta} = exp(\hat{\beta_0} + \hat{\beta_1}x_1 + ... + \hat{\beta_k}x_k)$, and the estimtated dispersion parameter $\hat{\alpha} = 1/\hat{\phi}$ and $\hat{\beta} = \hat{\phi}exp(\hat{\beta_0} + \hat{\beta_1}x_1 + ... + \hat{\beta_k}x_k)$.
+$\hat{E}(y) = \hat{\alpha}\hat{\beta} = exp(\hat{\beta_0} + \hat{\beta_1}x_1 + ... + \hat{\beta_k}x_k)$, and the estimtated dispersion parameter $\hat{\alpha} = 1/\hat{\phi}$. Thus, in the fitted model, the estimated parameters satisfy $\hat{\alpha} = 1/\hat{\phi}$ and $\hat{\beta} = \hat{\phi}exp(\hat{\beta_0} + \hat{\beta_1}x_1 + ... + \hat{\beta_k}x_k)$.
 
 After fitting the gamma model, significant predictors included age, BMI, smoking, and region northwest.
 
