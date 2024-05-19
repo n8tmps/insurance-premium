@@ -39,12 +39,7 @@ The original dataset did not contain any missing or undefined values. For this a
 After plotting the individual medical costs billed by health insurance, the distribution appears to not be normally distributed as supported by the histogram and the normality tests. Many statistical methods assume that the residuals of the data are normally distributed. Right-skewed data can violate these assumptions, leading to incorrect inferences and results.
 
 <img src="charges.jpg" />
-
-| Statistic | Value        |
-|-----------|--------------|
-| W         | 0.81469      |
-| p-value   | < 2.2e-16    |
-
+<img src="norm.jpg" />
 
 To test the normality of a distribution, one commonly used method is the Shapiro-Wilk test. The null hypothesis, $H_0$, for this test states that the population from which the sample is drawn follows a normal distribution. The alternative hypothesis, $H_1$, asserts that the population is not normally distributed.
 
@@ -78,11 +73,7 @@ The fitted mean for the Box-Cox transformed response is:
 The optimal $\lambda$ was computed to be $0.25$, which prompted for a square root transformation of $2 ( 1 - \frac{1}{\sqrt{y}})$. However, after plotting a histogram to the transformed response and conducting a normality test, the p-value was smaller than 0.05, and the transformed response remained not normally distributed.
 
 <img src="coxtr.jpg" />
-
-| Statistic | Value        |
-|-----------|--------------|
-| W         | 0.93386      |
-| p-value   | < 2.2e-16    |
+<img src="trnorm.jpg" />
 
 ### Gamma Regression Model
 A gamma regression, alternatively, was fitted to the positive response with a right-skewed distribution. In this model, $y$ has a gamma distribution with the density
