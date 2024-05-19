@@ -95,6 +95,8 @@ $\hat{E}(y) = \hat{\alpha}\hat{\beta} = exp(\hat{\beta_0} + \hat{\beta_1}x_1 + .
 
 After fitting the gamma model, significant predictors included age, BMI, smoking, and region northwest.
 
+<img src="gamma.jpg" />
+
 <div class="section">
 	<h2>Predictor Interpretation</h2>
 
