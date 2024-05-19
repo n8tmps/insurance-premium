@@ -38,6 +38,13 @@ The original dataset did not contain any missing or undefined values. For this a
 	<h2>Analysis</h2>
 	<p>
 		After plotting the individual medical costs billed by health insurance, the distribution appears to not be normally distributed as supported by the histogram and the normality tests. Many statistical methods assume that the residuals of the data are normally distributed. Right-skewed data can violate these assumptions, leading to incorrect inferences and results.
+
+To test the normality of a distribution, one commonly used method is the Shapiro-Wilk test. The null hypothesis, \(H_0\), for this test states that the population from which the sample is drawn follows a normal distribution. The alternative hypothesis, \(H_1\), asserts that the population is not normally distributed.
+
+The test statistic for the Shapiro-Wilk test is denoted by \(W\) and is calculated based on the sample data. Under the null hypothesis of normality, the test statistic \(W\) follows a specific distribution. The significance level, denoted by \(\alpha\), is chosen to assess the strength of evidence against the null hypothesis.
+
+If the p-value associated with the Shapiro-Wilk test is less than the chosen significance level (\(\alpha\)), typically 0.05, then we reject the null hypothesis and conclude that the data do not follow a normal distribution. Conversely, if the p-value is greater than or equal to \(\alpha\), we fail to reject the null hypothesis, indicating that there is insufficient evidence to conclude that the data deviate from a normal distribution.
+
 	</p>
 <img src="charges.jpg" />
 
