@@ -68,7 +68,7 @@ If the density of the response variable $y$ is right-skewed, a transformation ma
 
 The fitted mean for the Box-Cox transformed response is:
 
-<img src="https://latex.codecogs.com/svg.image?\;\mathbb{E}(\tilde{y})=\mathbb{E}\left(\frac{y}{\lambda-1}\lambda\right)=\beta_0&plus;\beta_1&space;x_1&plus;\cdots&plus;\beta_k&space;x_k\;" />
+<img src="https://latex.codecogs.com/svg.image?\hat{\mathbb{E}}(\tilde{y})=\hat{\mathbb{E}}\left(\frac{y^\lambda-1}{\lambda}\right)=\hat{\beta}_0&plus;\hat{\beta}_1&space;x_1&plus;\ldots&plus;\hat{\beta}_k&space;x_k" />
 
 <img src="boxcox.jpg" />
 
