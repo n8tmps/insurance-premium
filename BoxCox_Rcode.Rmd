@@ -17,7 +17,7 @@ chargesK = df$charges/1000
 
 # running normality test on response
 library(rcompanion)
-plotNormalHistogram(chargesK)
+plotNormalHistogram(chargesK, main="Distribution of Charges", xlab="ChargesK", ylab="Frequency")
 shapiro.test(chargesK)
 
 # finding optimal lambda for Box-cox transformation
@@ -33,7 +33,7 @@ ordered.data[1,]
 tr.chargesK = 2 * (sqrt((chargesK)) - 1)
 
 #running normality check of transformed response
-plotNormalHistogram(tr.chargesK)
+plotNormalHistogram(tr.chargesK, main="Distribution of Transformed Response", xlab="tr.chargesK", ylab="Frequency")
 shapiro.test(tr.chargesK)
 
 # running general linear model on transformed response
