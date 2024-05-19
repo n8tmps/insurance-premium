@@ -28,7 +28,7 @@ BoxCox.data<- data.frame(BoxCox.fit$x, BoxCox.fit$y)
 ordered.data<- BoxCox.data[with(BoxCox.data, order(-BoxCox.fit.y)),]
 ordered.data[1,]
 
-# applying Box-cox transformation with lambda=0.5
+# applying Box-cox transformation with lambda=0.25
 # square root transformation
 tr.chargesK = 2 * (sqrt((chargesK)) - 1)
 
