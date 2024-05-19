@@ -39,7 +39,6 @@ The original dataset did not contain any missing or undefined values. For this a
 	<p>
 		After plotting the individual medical costs billed by health insurance, the distribution appears to not be normally distributed as supported by the histogram and the normality tests. Many statistical methods assume that the residuals of the data are normally distributed. Right-skewed data can violate these assumptions, leading to incorrect inferences and results.
 
-	</p>
 <img src="charges.jpg" />
 
 | Statistic | Value        |
