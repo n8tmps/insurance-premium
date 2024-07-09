@@ -1,7 +1,7 @@
 <img src="health.jpg">
 <body>
 	<header>
-		<h1> Health Insurance Premium Analysis </h1>
+		<h1> Health Insurance Premium Regression Analysis </h1>
 	</header>
 <body>
 
